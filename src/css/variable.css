@@ -1,0 +1,8 @@
+:root {
+    --bgcolor: #10141b;
+    --bg: linear-gradient(167.28deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.02) 100%);
+    --borderColor: #D0B057;
+    --btnBg: linear-gradient(137.09deg, rgba(128, 125, 125, 0.3) -15.91%, rgba(34, 34, 34, 0.14) 95.84%);
+    --counterBg:#060a0e;
+    --colorBtn: #c7ae70;
+}

@@ -1,0 +1,72 @@
+.section2 {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section2_header  {
+    width: 550px;
+    height: 100px;
+    padding: 30px;
+    background: var(--bg);
+    margin: 4px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.diamond {
+    background: url(/img/diamond.png);
+    background-size: cover;
+    width:33px;
+    height: 25px;
+
+}
+ .section2_main {
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    align-items: center;
+
+ }
+.main_boxs3 {
+    width: 100px;
+    height: 100px;
+    background: var(--bg);
+    padding: 87px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 4px;
+    animation-name: boxs3;
+    animation-duration: 0.5s;
+}
+
+
+.main_boxs4 {
+    background: var(--bg);
+    padding: 65px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 3px;
+    animation-name: boxs3;
+    animation-duration: 0.5s;
+}
+.main_boxs5 {
+    background: var(--bg);
+    padding: 52px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 3px;
+    animation-name: boxs3;
+    animation-duration: 0.5s;
+}
+
+@keyframes boxs3 {
+    from{
+        transform: scale(0);
+    } to{
+        transform: scale(1);
+    }
+}
